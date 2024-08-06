@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import zainImg from "@/public/zain-2.jpg"
+import umerImg from "@/public/umer.png"
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src={zainImg}
+              src={umerImg}
               alt="Ricardo portrait"
               width="192"
               height="192"
@@ -64,7 +64,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
        <span>
-          <span className="font-bold">Ahoy, I'm Zain.</span>
+          <span className="font-bold">Ahoy, I'm Umer Shuja.</span>
           <span className="font-bold"> Software Engineer</span> 
           {' '}  Who loves to build solutions <span className="italic font-bold"> that make an impact.</span> 
         </span>
@@ -101,7 +101,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15]  transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/zainjavedev/"
+          href="https://linkedin.com/in/umershujadev/"
           target="_blank"
         >
           <BsLinkedin />
@@ -109,7 +109,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/zainjavedev"
+          href="https://github.com/UmerShujaDev"
           target="_blank"
         >
           <FaGithubSquare />
