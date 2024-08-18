@@ -19,26 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-    I started my programming journey during the COVID lockdown, where I picked up {" "}
-    <span className="font-bold italic">Python</span> and began exploring web scraping, automation, and data visualization.
-    After completing a Udemy bootcamp, I became familiar with web development and its technologies. 
-    <br></br><br></br>
-    I was fortunate to start my frontend career with an {" "}
-    <span className="font-bold italic underline">SEO team</span>, where I learned invaluable SEO standards for <span className="font-bold italic underline">creating and designing web pages.</span>  
-    {" "}Then, I transitioned to backend development, and I am now currently working as a {" "}
-    <span className="font-bold italic underline"> full time backend developer</span> while also helping people with their ideas and execution.
-    </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>,
-        I enjoy playing
-        basketball, chess and volleyball. I also have a keen interest 
-        in businesses and 
-        <span className="italic">creating solutiosn that help people and make an impact </span>
-        I am currently
-        learning about{" "}
-        <span className="font-medium">SaaS and startups</span>
+        With 8+ years of experience and strong problem-solving skills, I’ve developed mid-large applications for diverse clients.
       </p>
+      <p>
+        Experienced in building both systems and organizations that are secure, scaleable, cost-effective, and most of all, promote human flourishing.
+      </p>
+      <p>
+        Well-versed in programming languages, cloud technologies, and people management.
+      </p>
+      <p>
+        Experienced with the entire engineering lifecycle, from ideation and requirements design to architecture and implementation to sales and support.
+      </p>
+
     </motion.section>
   );
 }

@@ -9,8 +9,8 @@ import khubImg from "@/public/khub.png";
 import medlegalImg from "@/public/medlegal.png";
 import ititansImg from "@/public/ititans.png";
 import { FaLaptopCode } from "react-icons/fa";
-import { FaPython } from "react-icons/fa"; 
-import { FaCode } from "react-icons/fa"; 
+import { FaPython } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 export const links = [
   {
     name: "Home",
@@ -72,7 +72,7 @@ export const projectsData = [
       "A website for showcasing their mobile app, stunning webpages that are SEO optimized with language translation and formt to email setup.",
     tags: ["HTML", "CSS", "Vanilla JS", "PHP"],
     imageUrl: medlegalImg,
-    website:"https://medlegalsafekeep.com/"
+    website: "https://medlegalsafekeep.com/"
   },
   {
     title: "Kommerce-HUB",
@@ -80,35 +80,59 @@ export const projectsData = [
       "A warehouse management app that's a one stop for everything a warehouse owner needs with vast modules and scope.",
     tags: ["Flask", "SQl", "Postgres", "Python", "SQL Alchemy"],
     imageUrl: khubImg,
-    website:"https://khub.biz/"
+    website: "https://khub.biz/"
   },
- 
+
   {
     title: "iTitans",
     description:
       "An agency website filled with showcasing their services with multiple stepper forms and landing pages.",
-      tags: ["HTML", "CSS", "Vanilla JS", "PHP", "SEO", "on-page SEO", "Landing Pages"],
+    tags: ["HTML", "CSS", "Vanilla JS", "PHP", "SEO", "on-page SEO", "Landing Pages"],
     imageUrl: ititansImg,
-    website:"https://ititans.com/"
+    website: "https://ititans.com/"
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "Bootstrap",
-  "JavaScript",
-  "Flask",
-  "SQL",
-  "SQLAlchemy",
-  "React",
-  "Next.js",
-  "Git",
+  "Javascript",
+  "Typescript",
+  "React Js",
+  "Next Js",
+  "Redux thunk",
+  "Redux Saga",
+  "Context Api",
+  "React Form Hook",
+  "Formik",
+  "Node js",
+  "Express Js",
+  "Mongo DB",
+  "Github/Git",
   "Tailwind",
-  "PostgreSQL",
+  "Framer Motion",
+  "Antd design",
+  "Semantic",
+  "MUI",
+  "shadcn/ui",
+  "Socket.io",
+  "Docker",
+  "CI/CD",
+  "AWS",
+  "GitHub Actions",
+  "Jenkins",
+  "Kubernetes",
   "Python",
   "Django",
-  "Celery",
   "Selenium",
   "BS4",
+  "Open AI", 
+  "Payments API's", 
+  "Twilio API", 
+  "SendGrid API", 
+  "Slack API", 
+  "Google Maps API", 
+  "Shopify API", 
+  "Google Analytics API", 
+  "Firebase Authentication API", 
+  "OAuth 2.0",
+
 ] as const;
