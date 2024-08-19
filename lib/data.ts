@@ -10,6 +10,7 @@ import medlegalImg from "@/public/medlegal.png";
 import ititansImg from "@/public/ititans.png";
 import Discord_Bot_Showcase from "@/public/Discord_Bot_Showcase.png";
 import Finance_Tracker_Showcase from "@/public/Finance_Tracker_Showcase.png";
+import Ezzstar_Showcase from "@/public/show_case_ezzstar.png";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 export const links = [
@@ -95,6 +96,15 @@ export const projectsData = [
   },
 
   {
+    title: "Ezzstar",
+    description:
+      "A website for SPICA digital tokens, where users can seamlessly check token updates and explore the latest games, enhancing their digital experience.",
+    tags: ["React.JS", "Node.Js"],
+    imageUrl: Ezzstar_Showcase,
+    website: "https://ezzstar-v2.netlify.app/"
+  },
+
+  {
     title: "Bankio",
     description:
       "Enhance your financial management with our Next.js-powered Finance Tracker, offering real-time insights, secure transactions, and a user-friendly interface for efficient control.",
@@ -129,7 +139,6 @@ export const projectsData = [
     imageUrl: medlegalImg,
     website: "https://medlegalsafekeep.com/"
   },
-
 
 ] as const;
 
