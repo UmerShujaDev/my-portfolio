@@ -8,6 +8,8 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import khubImg from "@/public/khub.png";
 import medlegalImg from "@/public/medlegal.png";
 import ititansImg from "@/public/ititans.png";
+import Discord_Bot_Showcase from "@/public/Discord_Bot_Showcase.png";
+import Finance_Tracker_Showcase from "@/public/Finance_Tracker_Showcase.png";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 export const links = [
@@ -82,31 +84,53 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Medlegal SafeKeep",
-    description:
-      "A website for showcasing their mobile app, stunning webpages that are SEO optimized with language translation and formt to email setup.",
-    tags: ["HTML", "CSS", "Vanilla JS", "PHP"],
-    imageUrl: medlegalImg,
-    website: "https://medlegalsafekeep.com/"
-  },
+
   {
     title: "Kommerce-HUB",
     description:
       "A warehouse management app that's a one stop for everything a warehouse owner needs with vast modules and scope.",
-    tags: ["Flask", "SQl", "Postgres", "Python", "SQL Alchemy"],
+    tags: ["React.JS", "Next.JS", "NodeJs", "Express.JS"],
     imageUrl: khubImg,
     website: "https://khub.biz/"
+  },
+
+  {
+    title: "Bankio",
+    description:
+      "Enhance your financial management with our Next.js-powered Finance Tracker, offering real-time insights, secure transactions, and a user-friendly interface for efficient control.",
+    tags: ["Next.js"],
+    imageUrl: Finance_Tracker_Showcase,
+    website: ""
+  },
+
+  {
+    title: "Bots",
+    description:
+      "A fully responsive and interactive Discord bot, enhancing user engagement and automation within the platform.",
+    tags: ["Node js", "Discord.js", "MongoDB"],
+    imageUrl: Discord_Bot_Showcase,
+    website: "https://top.gg/"
   },
 
   {
     title: "iTitans",
     description:
       "An agency website filled with showcasing their services with multiple stepper forms and landing pages.",
-    tags: ["HTML", "CSS", "Vanilla JS", "PHP", "SEO", "on-page SEO", "Landing Pages"],
+    tags: ["HTML", "CSS", "Vanilla JS", "Landing Pages"],
     imageUrl: ititansImg,
     website: "https://ititans.com/"
   },
+
+  {
+    title: "Medlegal SafeKeep",
+    description:
+      "A website for showcasing their mobile app, stunning webpages that are SEO optimized with language translation and format to email setup.",
+    tags: ["HTML", "CSS", "Vanilla JS"],
+    imageUrl: medlegalImg,
+    website: "https://medlegalsafekeep.com/"
+  },
+
+
 ] as const;
 
 export const skillsData = [
