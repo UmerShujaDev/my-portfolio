@@ -42,40 +42,40 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Senior Software Engineer",
-    location: "Kommerce Hub",
+    title: "Senior Software Engineer @ Kommerce Hub",
+    location: "USA, Remote",
     description:
       "I'm currently working as a software developer, focusing on developing and deploying web applications using React. My day-to-day tasks include implementing RESTful APIs, optimizing codebases, and leading a team to build scalable microservices, all while ensuring seamless performance and timely delivery of high-quality software.",
     icon: React.createElement(FaLaptopCode),
     date: "2021 Nov - present",
   },
   {
-    title: "Senior Software Engineer",
-    location: "Ezzstar",
+    title: "Senior Software Engineer @ Ezzstar",
+    location: "USA, Remote",
     description:
       "I am leading the development of full-stack web applications using React, Node.js, Express.js, and MongoDB. My work focuses on improving project delivery timelines, optimizing API and database performance, and mentoring junior developers, all while ensuring code maintainability and implementing CI/CD pipelines for reliable software releases.",
     icon: React.createElement(FaCode),
     date: "2021 Oct - present",
   },
   {
-    title: "Software Engineer",
-    location: "Alchemative",
+    title: "Software Engineer @ Alchemative",
+    location: "Pakistan",
     description:
       "I developed and optimized e-commerce web applications, focusing on enhancing user experience and performance. I led the implementation of complex APIs, migrated legacy code to modern frameworks, and reduced post-deployment issues by 30% through code reviews and automated testing.",
     icon: React.createElement(FaCode),
     date: "2019 July - 2021 Oct",
   },
   {
-    title: "Software Engineer",
-    location: "9th Dimention",
+    title: "Software Engineer @ 9th Dimention",
+    location: "Pakistan",
     description:
       "I developed and maintained high-performance web applications, focusing on optimizing user experiences and integrating third-party services. I led custom software solution designs, optimized codebases, and managed multiple projects using agile methodologies to deliver on time and within budget.",
     icon: React.createElement(FaCode),
     date: "2018 Apr - 2019 July",
   },
   {
-    title: "Web Developer",
-    location: "ERS",
+    title: "Web Developer @ ERS",
+    location: "Pakistan",
     description:
       "During my time at ERS, I led the development of scalable applications, focusing on designing efficient code structures, reducing load times, and enhancing performance. I implemented RESTful APIs, optimized codebases, and collaborated with cross-functional teams to deliver high-quality, customized software solutions using Agile methodologies and CI/CD pipelines.",
     icon: React.createElement(FaCode),
