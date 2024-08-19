@@ -9,7 +9,6 @@ import khubImg from "@/public/khub.png";
 import medlegalImg from "@/public/medlegal.png";
 import ititansImg from "@/public/ititans.png";
 import { FaLaptopCode } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 export const links = [
   {
@@ -40,29 +39,46 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Scraper - Freelance",
+    title: "Senior Software Engineer",
     location: "Remote",
     description:
-      "I worked as a web scraper and data visualization with python and selenium helping people scrape data and provide insights so they can make better informed decisions.",
+      "I'm currently working as a software developer, focusing on developing and deploying web applications using React. My day-to-day tasks include implementing RESTful APIs, optimizing codebases, and leading a team to build scalable microservices, all while ensuring seamless performance and timely delivery of high-quality software.",
     icon: React.createElement(FaLaptopCode),
-    date: "2020 - 2022",
+    date: "2021 Nov - present",
   },
   {
-    title: "Full Stack Associate",
-    location: "Lahore, Pk",
+    title: "Senior Software Engineer",
+    location: "Remote",
     description:
-      "I Worked as a full stack associate harenssing my development skills and creating websites for local and internation business while also maintainig the SEO standards. ",
+      "I am leading the development of full-stack web applications using React, Node.js, Express.js, and MongoDB. My work focuses on improving project delivery timelines, optimizing API and database performance, and mentoring junior developers, all while ensuring code maintainability and implementing CI/CD pipelines for reliable software releases.",
     icon: React.createElement(FaCode),
-    date: "2023 Jan - 2024 Dec",
+    date: "2021 Oct - present",
   },
   {
-    title: "Backend Developer",
+    title: "Software Engineer",
     location: "Lahore, Pk",
     description:
-      "I'm currently working as a backend developer working as a freelancer. My day to day tasks includes api development for new features, enhancement of legacy system, fixing bugs and vulnerabilities while maintaining clean code. ",
-    icon: React.createElement(FaPython),
-    date: "2024 Jan - present",
+      "I developed and optimized e-commerce web applications, focusing on enhancing user experience and performance. I led the implementation of complex APIs, migrated legacy code to modern frameworks, and reduced post-deployment issues by 30% through code reviews and automated testing.",
+    icon: React.createElement(FaCode),
+    date: "2019 July - 2021 Oct",
   },
+  {
+    title: "Software Engineer",
+    location: "Lahore, Pk",
+    description:
+      "I developed and maintained high-performance web applications, focusing on optimizing user experiences and integrating third-party services. I led custom software solution designs, optimized codebases, and managed multiple projects using agile methodologies to deliver on time and within budget.",
+    icon: React.createElement(FaCode),
+    date: "2018 Apr - 2019 July",
+  },
+  {
+    title: "Web Developer",
+    location: "Lahore, Pk",
+    description:
+      "During my time at ERS, I led the development of scalable applications, focusing on designing efficient code structures, reducing load times, and enhancing performance. I implemented RESTful APIs, optimized codebases, and collaborated with cross-functional teams to deliver high-quality, customized software solutions using Agile methodologies and CI/CD pipelines.",
+    icon: React.createElement(FaCode),
+    date: "2018 May - 2018 Aug",
+  },
+
 ] as const;
 
 export const projectsData = [
