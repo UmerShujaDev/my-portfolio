@@ -98,7 +98,7 @@ export const projectsData = [
     title: "Bankio",
     description:
       "Enhance your financial management with our Next.js-powered Finance Tracker, offering real-time insights, secure transactions, and a user-friendly interface for efficient control.",
-    tags: ["Next.js"],
+    tags: ["Next.js", "Typescript", "RHF"],
     imageUrl: Finance_Tracker_Showcase,
     website: ""
   },
