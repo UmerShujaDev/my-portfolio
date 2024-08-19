@@ -21,13 +21,13 @@ export default function About() {
       <p className="mb-3">
         With 8+ years of experience and strong problem-solving skills, I’ve developed mid-large applications for diverse clients.
       </p>
-      <p>
+      <p className="mb-3">
         Experienced in building both systems and organizations that are secure, scaleable, cost-effective, and most of all, promote human flourishing.
       </p>
-      <p>
+      <p className="mb-3">
         Well-versed in programming languages, cloud technologies, and people management.
       </p>
-      <p>
+      <p className="mb-3">
         Experienced with the entire engineering lifecycle, from ideation and requirements design to architecture and implementation to sales and support.
       </p>
 
