@@ -11,6 +11,9 @@ import ititansImg from "@/public/ititans.png";
 import Discord_Bot_Showcase from "@/public/Discord_Bot_Showcase.png";
 import Finance_Tracker_Showcase from "@/public/Finance_Tracker_Showcase.png";
 import Ezzstar_Showcase from "@/public/show_case_ezzstar.png";
+import TicTacToe from "@/public/tic-tac-toe.png";
+import KanbanBoard from "@/public/kanban-board.png";
+import TextEditor from "@/public/text-editor.png";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 export const links = [
@@ -93,7 +96,28 @@ export const projectsData = [
     imageUrl: khubImg,
     website: "https://khub.biz/"
   },
-
+  {
+    title: "Tic tac toe",
+    description:
+      "A simple tic tac toe game built with React, showcasing basic game mechanics and state management.",
+    tags: ["React.JS"],
+    imageUrl: TicTacToe,
+    website: "https://playful-daifuku-aeded4.netlify.app/"
+  },
+  {
+    title: "Text Editor",
+    description: "A text editor built with React, similar to CKEditor, allowing users to create and format text documents with ease.",
+    tags: ["Html", "CSS", "Javascript"],
+    imageUrl: TextEditor,
+    website: "https://umershujadev.github.io/text-editor/"
+  },
+  {
+    title: "Kanban Board",
+    description: "A Kanban board application built with React, enabling users to manage tasks visually and efficiently.",
+    tags: ["Html", "CSS", "Javascript"],
+    imageUrl: KanbanBoard,
+    website: "https://umershujadev.github.io/kanban-board/"
+  },
   {
     title: "Ezzstar",
     description:
@@ -172,15 +196,15 @@ export const skillsData = [
   "Django",
   "Selenium",
   "BS4",
-  "Open AI", 
-  "Payments API's", 
-  "Twilio API", 
-  "SendGrid API", 
-  "Slack API", 
-  "Google Maps API", 
-  "Shopify API", 
-  "Google Analytics API", 
-  "Firebase Authentication API", 
+  "Open AI",
+  "Payments API's",
+  "Twilio API",
+  "SendGrid API",
+  "Slack API",
+  "Google Maps API",
+  "Shopify API",
+  "Google Analytics API",
+  "Firebase Authentication API",
   "OAuth 2.0",
 
 ] as const;

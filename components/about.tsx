@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        With 8+ years of experience and strong problem-solving skills, I’ve developed mid-large applications for diverse clients.
+        With 4+ years of experience and strong problem-solving skills, I’ve developed mid-large applications for diverse clients.
       </p>
       <p className="mb-3">
         Experienced in building both systems and organizations that are secure, scaleable, cost-effective, and most of all, promote human flourishing.
